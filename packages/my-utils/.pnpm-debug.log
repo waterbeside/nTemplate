@@ -1,0 +1,144 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "my-utils",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/jest/27.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "jest",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/jest/27.3.1",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/ts-jest/27.0.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "ts-jest",
+      "rawSpec": "latest"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/ts-jest/27.0.7",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/eslint/8.2.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "latest"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/eslint/8.2.0",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/eslint/8.2.0",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmmirror.com/typescript/4.4.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": "latest"
+    }
+  },
+  "12 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.4.4",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "resolved"
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/typescript/4.4.4",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "found_in_store"
+  },
+  "14 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmmirror.com/jest/27.3.1",
+    "size": 2211,
+    "status": "started"
+  },
+  "15 debug pnpm:update-check": {
+    "currentVersion": "6.20.4",
+    "latestVersion": "6.21.0"
+  },
+  "16 debug pnpm:fetching-progress": {
+    "attempt": 1,
+    "packageId": "registry.npmmirror.com/ts-jest/27.0.7",
+    "size": 54620,
+    "status": "started"
+  },
+  "17 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/jest/27.3.1",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "fetched"
+  },
+  "18 debug pnpm:progress": {
+    "packageId": "registry.npmmirror.com/ts-jest/27.0.7",
+    "requester": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "status": "fetched"
+  },
+  "19 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmmirror.com/@type%2Fjest: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmmirror.com/@type%2Fjest: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\Kan\\AppData\\Roaming\\nvm\\v14.18.1\\node_modules\\pnpm\\dist\\pnpm.cjs:84884:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "20 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@type/jest is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmmirror.com/@type%2Fjest"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@type/jest",
+    "pkgsStack": [],
+    "prefix": "D:\\Kan\\Documents\\MyProjects\\my\\nTemplates\\packages\\my-utils",
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmmirror.com/@type%2Fjest: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmmirror.com/@type%2Fjest: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\Kan\\AppData\\Roaming\\nvm\\v14.18.1\\node_modules\\pnpm\\dist\\pnpm.cjs:84884:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}

@@ -1,7 +1,6 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@jiaminghi/data-view': ^2.10.0
   '@typescript-eslint/eslint-plugin': ^5.3.1
   '@typescript-eslint/parser': ^5.3.1
   '@vitejs/plugin-vue': ^1.9.3
@@ -17,7 +16,6 @@ specifiers:
   vuex: ^4.0.2
 
 dependencies:
-  '@jiaminghi/data-view': 2.10.0
   vue: 3.2.21
   vue-router: 4.0.12_vue@3.2.21
   vuex: 4.0.2_vue@3.2.21
@@ -45,13 +43,6 @@ packages:
     resolution: {integrity: sha1-NyPNXI2Hc+75bOV+odm3+qzNEqw=, tarball: '@babel/parser/download/@babel/parser-7.16.2.tgz'}
     engines: {node: '>=6.0.0'}
     hasBin: true
-
-  /@babel/runtime/7.16.0:
-    resolution: {integrity: sha1-4nuXfy4giLokdIv5m14d7OZOTws=, tarball: '@babel/runtime/download/@babel/runtime-7.16.0.tgz?cache=0&sync_timestamp=1636356461949&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.16.0.tgz'}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: 0.13.9
-    dev: false
 
   /@babel/types/7.16.0:
     resolution: {integrity: sha1-2zsxOAT5aq3Qt3bEgj4SetZyibo=, tarball: '@babel/types/download/@babel/types-7.16.0.tgz'}
@@ -108,47 +99,6 @@ packages:
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha1-tSBSnsIdjllFoYUd/Rwy6U45/0U=, tarball: '@humanwhocodes/object-schema/download/@humanwhocodes/object-schema-1.2.1.tgz'}
     dev: true
-
-  /@jiaminghi/bezier-curve/0.0.9:
-    resolution: {integrity: sha1-UZasqTyLBhphK0w+q87flJDO9u4=, tarball: '@jiaminghi/bezier-curve/download/@jiaminghi/bezier-curve-0.0.9.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-    dev: false
-
-  /@jiaminghi/c-render/0.4.3:
-    resolution: {integrity: sha1-mC69j3G0Q7uVB4NCJ4NJc+vZttg=, tarball: '@jiaminghi/c-render/download/@jiaminghi/c-render-0.4.3.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-      '@jiaminghi/bezier-curve': 0.0.9
-      '@jiaminghi/color': 0.1.1
-      '@jiaminghi/transition': 1.1.11
-    dev: false
-
-  /@jiaminghi/charts/0.2.18:
-    resolution: {integrity: sha1-Y97ZUgB4n8Gh/QS3/Z5W9Y0i2Q8=, tarball: '@jiaminghi/charts/download/@jiaminghi/charts-0.2.18.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-      '@jiaminghi/c-render': 0.4.3
-    dev: false
-
-  /@jiaminghi/color/0.1.1:
-    resolution: {integrity: sha1-vd+QEt/OaYLTgpqYP/65Hundp7Y=, tarball: '@jiaminghi/color/download/@jiaminghi/color-0.1.1.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-    dev: false
-
-  /@jiaminghi/data-view/2.10.0:
-    resolution: {integrity: sha1-IUbY/HG58kvoCCOMoFDdt6TIlJ8=, tarball: '@jiaminghi/data-view/download/@jiaminghi/data-view-2.10.0.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-      '@jiaminghi/charts': 0.2.18
-    dev: false
-
-  /@jiaminghi/transition/1.1.11:
-    resolution: {integrity: sha1-V22K8JJDSzQgHrpersx53TPIrYw=, tarball: '@jiaminghi/transition/download/@jiaminghi/transition-1.1.11.tgz'}
-    dependencies:
-      '@babel/runtime': 7.16.0
-    dev: false
 
   /@nodelib/fs.scandir/2.1.5:
     resolution: {integrity: sha1-dhnC6yGyVIP20WdUi0z9WnSIw9U=, tarball: '@nodelib/fs.scandir/download/@nodelib/fs.scandir-2.1.5.tgz'}
@@ -2254,10 +2204,6 @@ packages:
     dependencies:
       picomatch: 2.3.0
     dev: true
-
-  /regenerator-runtime/0.13.9:
-    resolution: {integrity: sha1-iSV0Kpj/2QgUmI11Zq0wyjsmO1I=, tarball: regenerator-runtime/download/regenerator-runtime-0.13.9.tgz}
-    dev: false
 
   /regex-not/1.0.2:
     resolution: {integrity: sha1-H07OJ+ALC2XgJHpoEOaoXYOldSw=, tarball: regex-not/download/regex-not-1.0.2.tgz}
